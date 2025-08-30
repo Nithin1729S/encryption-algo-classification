@@ -54,7 +54,7 @@ def bytes_to_bin(data_bytes):
     return ''.join(format(b, '08b') for b in data_bytes)
 
 # Prepare dataset
-samples_per_algo = 5
+samples_per_algo = 15000
 algorithms = ["DES", "Blowfish", "RC4"]
 dataset = []
 
