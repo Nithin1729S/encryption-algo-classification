@@ -3,3 +3,4 @@ __pycache__/
 env
 *.csv
 *.log
+nist_dataset.csv
